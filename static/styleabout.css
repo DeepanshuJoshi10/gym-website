@@ -1,0 +1,34 @@
+#aboutheading{
+    text-align: center;
+    margin: 20px 0px;
+}
+#about h3{
+    margin:10px 5px;
+    font-size: 25px;
+}
+#about p{
+    padding: 5px 5px;
+    text-align: justify;
+    font-size: 17px;
+}
+#imageheading{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 25px;
+}
+#imagessection{
+    height: 850px;
+}
+
+#aboutimages{
+    height: 450px;
+    margin: auto;
+    max-width: 1130px;
+}
+
+.abimg{
+    height: 80%;
+    padding: 25px 5px;
+    padding-right: 8px;
+    border-radius: 50px;
+}

@@ -1,0 +1,60 @@
+doctype html
+html 
+    head 
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul
+                div#logo 
+                    img(src="/static/image/logo.png") 
+                    | OG
+                li #[a(href="/") Home]
+                li #[a(href="/") About Us]
+                li #[a(href="/") Services]
+                li #[a(href="/") Plans]
+                li #[a(href="/") Contact Us]
+        
+        section#introsection 
+                div Bulls Garuda Gym 
+                div.small Eat Gym Sweat Repeat
+        
+        section#missionsection 
+            h2 Our Mission 
+            div.card 
+                h3 Improve Strength 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/image/1.png") 
+                    div.card-content 
+                        p Weight exercises to enhance the strength 
+            div.card 
+                h3 Build Endurance 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/image/2.png") 
+                    div.card-content 
+                        p Cardio to build your Endurance
+            div.card 
+                h3 Yoga for better Health 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/image/3.png") 
+                    div.card-content 
+                        p Helps to reduce stress and makes you active 
+
+
+        section#sponsorsection 
+            h2 Sponsors 
+            div#sponsors 
+                img(src="/static/image/logo1.png", alt="Sponsor image",class="spimage")
+                img(src="/static/image/logo2.png", alt="Sponsor image",class="spimage")
+                img(src="/static/image/logo3.png", alt="Sponsor image",class="spimage")
+                img(src="/static/image/logo4.png", alt="Sponsor image",class="spimage")
+                
+
+        footer#footer 
+            | Copyright © 2023 bullsgarudagym.com  |  All rights reserved
+        script 
+            include ../static/index.js 
+

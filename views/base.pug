@@ -1,0 +1,25 @@
+doctype html 
+html 
+    head 
+        title Bulls Garuda Gym 
+        block scripts 
+        block style 
+    body 
+        nav#navbar 
+            ul
+                div#logo 
+                    img(src="/static/image/logo.png") 
+                    | OG
+                li #[a(href="/") Home]
+                li #[a(href="/about") About Us]
+                li #[a(href="/timings") Timings]
+                li #[a(href="/plans") Plans]
+                li #[a(href="/contact") Contact Us]
+        block content 
+        footer#footer 
+            | Copyright © 2023 bullsgarudagym.com  |  All rights reserved 
+
+
+        //- now this is a base template and we will use it as a reference to make different pages of that website by filling details like from where to take these values
+
+        //- Here we have provided navigation bae and footer on base page only because we want it to be in every pages of website so to reduce repetance of code we have done this 

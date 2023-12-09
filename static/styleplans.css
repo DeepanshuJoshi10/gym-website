@@ -1,0 +1,54 @@
+ #main{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+    font-weight: bolder;
+    
+}
+.plan{
+    min-height: 85vh;
+}
+.planbox{
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 25px;
+    width: 40%;
+    height: 350px;
+    margin: 10px 30px;
+    margin-right: 50px;
+    margin-left: 40px;
+    background-color: rgb(209, 250, 250);
+}
+
+.planbox h2{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+} 
+
+#boxheading {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 25px;
+}
+
+#planlist{
+    align-items: center;
+}
+.planbox li{
+    list-style: circle;
+    list-style-position: inside;
+    padding-left: 35px;
+    padding-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.plan::before{
+    content: "";
+    background: url(../static/image/logo.png) no-repeat center center/cover;
+    width: 100%;
+    height: 91%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}

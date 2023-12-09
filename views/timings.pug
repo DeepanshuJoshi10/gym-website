@@ -1,0 +1,36 @@
+extends base.pug 
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styletimings.css
+
+block content 
+    div.container 
+        div#timingbox
+            h1#timing GYM Timings 
+            p <b> Monday:</b> 5:00-10:00 and 16:00-22:00
+            p <b> Tuesday:</b> 5:00-10:00 and 16:00-22:00
+            p <b> Wednesday:</b> 5:00-10:00 and 16:00-22:00
+            p <b> Thursday:</b> 5:00-10:00 and 16:00-22:00
+            p <b> Friday:</b> 5:00-10:00 and 16:00-22:00
+            p <b> Saturday:</b> 5:00-10:00 and 16:00-22:00
+            p <b> Sunday:</b> RECOVERY TIME 
+            p <b> NOTE: Gym will remain close on national holidays.</b>
+
+        div#connect
+            h1#timing Connect to Us 
+            p <b>E-mail:</b> #[a(href="https://gmail.com") bullsgarudagym@gmail.com]
+            p <b>Contact Number: </b> +919109511307
+            p Kindly contact us between 5:00-10:00 or between 16:00-22:00. We will answer all your Queries 
+        
+        div#address 
+            h1#timing Address 
+            p Near Universal School, RTO Road, Haldwani, Uttarakhand
+            p Pin: 263139
+
+
+        

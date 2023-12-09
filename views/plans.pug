@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleplans.css
+
+block content  
+    div.plan  
+        h1#main OUR PLANS
+        div.planbox 
+            h2 Basic Plan 
+            h1#boxheading 700 P/M 
+            ul
+                li Access to many modern and Advanced machines
+                li Shelves for your belongings
+                li Wi-fi access 
+                li Supervised training 
+                li Parking facility 
+                li RO water 
+                li Separate Changing rooms 
+                li AC facility
+                li 20% off on suppliments
+
+        div.planbox 
+            h2 Premium Plan 
+            h1#boxheading 1600 P/M 
+            ul
+                li All benifits of basic plan 
+                li Access to all modern and Advanced machines
+                li Dedicated Locker for saftey of your belongings
+                li Treadmill access and all cardio machines 
+                li Supervised training with personalised diet plan 
+                li Massage machine access 
+                li Zumba sessions (optional) 
+                li Proper planning to reach your goal 
+                li 30% off on suppliments 
+                
+
+
